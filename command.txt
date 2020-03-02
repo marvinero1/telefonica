@@ -1,0 +1,14 @@
+mysql -u root -p
+mysql --version
+
+mysqladmin -u rot -p password DB0000
+mysqladmin -u rot -p password DB0000
+
+/entra/
+create user 'luis'@'%' identified by '1234';
+grant replication slave on *.* to 'luis'@'%';
+
+status
+server
+connect
+ SELECT * FROM usuarios;
